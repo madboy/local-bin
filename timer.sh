@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "we are going to sleep for $1 minute(s)"
+echo `date`
 for ((i=1; i <= $1; i++))
 do
     sleep 60
@@ -10,3 +11,4 @@ do
 	echo "$i minute has passed"
     fi
 done
+echo `date`
